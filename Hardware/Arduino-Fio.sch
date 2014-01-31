@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12156,9 +12156,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-S">
 <polygon width="0.15" layer="21">
@@ -12270,6 +12270,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-1.0938" y="0" curve="-247.497204"/>
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
+</package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51">Revision By: </text>
 </package>
 </packages>
 <symbols>
@@ -15865,6 +15868,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="0.6834" y="-1.65"/>
 </polygon>
 </symbol>
+<symbol name="REVISION">
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -15899,6 +15905,18 @@ Standard 8.5x11 US Letter frame</description>
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION">
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -16253,13 +16271,12 @@ Comes in a variety of packages.  Check out Hirose's ZX-x0 line: http://www.hiros
 <part name="JP5" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="L"/>
+<part name="U$2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="172.72" y="10.16" size="3.175" layer="94" font="vector">Shigeru Kobayashi</text>
-<text x="149.86" y="5.08" size="1.6764" layer="95">Original design (LilyPad Arduino v1.6) by
- L. Buechley and N. Seidle</text>
+<text x="165.862" y="11.176" size="3.175" layer="94" font="vector">Shigeru Kobayashi</text>
 <text x="256.54" y="177.8" size="1.778" layer="97">Change to ATmega32U4</text>
 <text x="256.54" y="175.26" size="1.778" layer="97">Switch to microUSB</text>
 <text x="254" y="180.34" size="1.778" layer="97">New on v3:</text>
@@ -16274,6 +16291,8 @@ Comes in a variety of packages.  Check out Hirose's ZX-x0 line: http://www.hiros
 <text x="256.54" y="152.4" size="1.778" layer="97">Changed VCC to 3.3V</text>
 <text x="254" y="147.32" size="1.778" layer="97">New on v31:</text>
 <text x="238.76" y="7.62" size="2.54" layer="97">v31</text>
+<text x="148.082" y="6.096" size="3.175" layer="94" font="vector">N. Seidle</text>
+<text x="194.564" y="6.35" size="3.175" layer="94" font="vector">T. Klopfenstein</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -16393,6 +16412,7 @@ Comes in a variety of packages.  Check out Hirose's ZX-x0 line: http://www.hiros
 <instance part="JP17" gate="G$1" x="241.3" y="30.48"/>
 <instance part="JP5" gate="G$1" x="246.38" y="30.48"/>
 <instance part="LOGO1" gate="G$1" x="236.22" y="48.26"/>
+<instance part="U$2" gate="G$1" x="174.498" y="6.096"/>
 </instances>
 <busses>
 </busses>
@@ -17414,10 +17434,4 @@ Comes in a variety of packages.  Check out Hirose's ZX-x0 line: http://www.hiros
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>

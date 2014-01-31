@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -174,7 +174,7 @@
 <text x="22.479" y="27.305" size="1.016" layer="21" font="vector" ratio="15" rot="R180">RXI</text>
 <text x="22.479" y="24.765" size="1.016" layer="21" font="vector" ratio="15" rot="R180">TXO</text>
 <text x="22.479" y="22.225" size="1.016" layer="21" font="vector" ratio="15" rot="R180">RST</text>
-<text x="31.75" y="-12.7" size="1.778" layer="27" font="vector" ratio="15">S. Kobayashi and N. Seidle</text>
+<text x="27.94" y="-11.43" size="1.778" layer="27" font="vector" ratio="15">S. Kobayashi and N. Seidle</text>
 <text x="5.715" y="56.261" size="1.27" layer="22" font="vector" ratio="15" rot="MR90">5V</text>
 <text x="9.525" y="55.88" size="1.778" layer="22" font="vector" ratio="15" rot="MR0">-</text>
 <text x="21.59" y="44.196" size="1.27" layer="22" font="vector" ratio="15" rot="SMR0">1</text>
@@ -230,6 +230,7 @@
 <text x="15.621" y="1.143" size="1.016" layer="21" font="vector" ratio="15">RX</text>
 <text x="18.034" y="46.228" size="1.016" layer="21" font="vector" ratio="15">Power</text>
 <text x="18.415" y="47.625" size="1.016" layer="21" font="vector" ratio="15">ASO</text>
+<text x="27.94" y="-15.24" size="1.778" layer="27" font="vector" ratio="15">Toni Klopfenstein</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -4121,9 +4122,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51">http://creativecommons.org/licenses/by-sa/3.0</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 <package name="OSHW-LOGO-L">
 <polygon width="0.15" layer="21">
@@ -4161,6 +4162,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <vertex x="-1.0938" y="0" curve="-247.497204"/>
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
+</package>
+<package name="REVISION">
+<text x="0" y="0" size="1.778" layer="51">Revision By: </text>
 </package>
 </packages>
 </library>
@@ -4461,6 +4465,7 @@ design rules under a new name.</description>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="0.527878125" y="-11.43"/>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="0.635" y="-11.43"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-L" value="OSHW-LOGOL" x="12.7" y="20.32" rot="MR0"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="REVISION" value="REVISION" x="12.7" y="-15.24"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5499,16 +5504,6 @@ design rules under a new name.</description>
 <wire x1="6.5795" y1="59.182" x2="6.35" y2="58.9525" width="0.2032" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="19,1,f2d652ee5c54fc6c"/>
-<approved hash="19,1,6895bfa6ccf4f218"/>
-<approved hash="19,1,ad69de0279465ffb"/>
-<approved hash="19,1,ce4ce98723fcede8"/>
-<approved hash="19,1,436f8ab2ede1d823"/>
-<approved hash="19,1,7eb53768b9d94c47"/>
-<approved hash="19,1,0c7f6dc593e7ca06"/>
-<approved hash="19,1,8ef0ac63d4b6d65d"/>
-</errors>
 </board>
 </drawing>
 </eagle>
