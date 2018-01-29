@@ -9,10 +9,25 @@ runs at 3.3v and 8MHz.
 
 Repository Contents
 -------------------
-* **/Firmware** - Any firmware that the part ships with, 
+* **/Firmware** - Arduino example code used in the hookup guide
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
+* **/Production** - Test bed files and production panel files
+
+Documentation
+--------------
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)** - Basic hookup guide for the FioV3.
+* **[SparkFun Arduino Board Addon](https://github.com/sparkfun/Arduino_Boards/)** - Arduino board addon for FioV3.
  
 License Information
 -------------------
-The hardware is released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).  
-All other code is open source so please feel free to do anything you want with it; you buy me a beer if you use this and we meet someday ([Beerware license](http://en.wikipedia.org/wiki/Beerware)).
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+
+_<COLLABORATION CREDIT>_
