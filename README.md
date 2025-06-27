@@ -1,7 +1,7 @@
 Fio v3
 ======
 
-[![Fio v3](https://dlnmh9ip6v2uc.cloudfront.net//images/products/1/1/5/2/0/11017-01.jpg)  
+[![Fio v3](https://cdn.sparkfun.com/assets/parts/6/3/2/5/11017-01.jpg)  
 *Fio v3-ATmega32U4 (DEV-11520)*](https://www.sparkfun.com/products/11520)
 
 The Fio v3 is a ATmega32U4 powered system, similar to the ARduino Fio. This board is compatible with a Lipo battery and XBees, and 
